@@ -51,4 +51,19 @@ sudo service docker stop
 sudo service docker start
 ```
 
+### Step 4: Create a Jenkins job for microservice
+- Open localhost:8080/
+- Go to add new Item and name it 'DeployMicroservice' this will poll https://github.com/pandareen/sample-react
+  ![image](https://github.com/pandareen/devops-task/assets/7270563/b01a91c8-7625-4400-bbca-22f8b9e89a71)
+  ![image](https://github.com/pandareen/devops-task/assets/7270563/ad16d9c6-64dd-4ed7-b73c-ed330135f046)
+  ![image](https://github.com/pandareen/devops-task/assets/7270563/dd2b27bc-8ba5-4f81-9703-b9d18abbf649)
+  ![image](https://github.com/pandareen/devops-task/assets/7270563/d2f11eac-1d7f-4c22-bd48-278aeacbe943)
+- Click save
+
+This job will always poll changes in the project https://github.com/pandareen/sample-react and build and deploy this into docker.
+
+
+  
+
+
 
