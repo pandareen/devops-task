@@ -43,3 +43,12 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo apt-get install -y dbus-user-session
 dockerd-rootless-setuptool.sh install
 ```
+
+
+### Step 4: Start docker service
+```bash
+sudo service docker stop
+sudo service docker start
+```
+
+
