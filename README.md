@@ -37,3 +37,9 @@ sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+
+### Step 3: Install rootless
+```bash
+sudo apt-get install -y dbus-user-session
+dockerd-rootless-setuptool.sh install
+```
